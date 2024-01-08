@@ -22,7 +22,7 @@
 
 
 .header-banner {
-    background-image: linear-gradient(180deg, #070211b4 0%, rgba(7, 2, 17, 0.00) 80%), url(image/banner.png);
+    background-image: linear-gradient(180deg, #070211b4 0%, rgba(7, 2, 17, 0.00) 100%), url(image/banner.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
@@ -164,9 +164,9 @@
 }
 
 .mid-btn:hover {
-    box-shadow: 0px 0px 20px rgb(255, 195, 29);
-    background-color: rgba(241, 192, 59, 0.527);
-    border-radius: 40px;
+    box-shadow: 0px 0px 40px rgb(255, 196, 35);
+    background-color: rgba(241, 192, 59, 0.384);
+    border-radius: 60px;
 }
 
 
@@ -235,7 +235,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 70px;
+    gap: 30px;
 
 }
 
@@ -308,6 +308,7 @@
     font-size: 22px;
     font-weight: 500;
     text-align: center;
+    padding: 10px 0;
 }
 
 .holi-bg-title {
@@ -549,8 +550,9 @@ footer {
     cursor: pointer;
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
+    transition: 500ms;
 }
 .foot-content img{
     width: 28px;
@@ -558,4 +560,9 @@ footer {
     padding-right: 8px;
 }
 
+.foot-btn:hover{
+    box-shadow: 0px 0px 40px rgb(228, 223, 210);
+    background-color: rgba(228, 223, 210, 0.336);
+    border-radius: 20px;
+}
 /* Footer END */
