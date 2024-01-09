@@ -411,7 +411,7 @@
     max-width: 350px;
     height: 350px;
     object-fit: cover;
-    transition: 200ms;
+    transition: 500ms;
 }
 
 .port-gallery img:hover {
